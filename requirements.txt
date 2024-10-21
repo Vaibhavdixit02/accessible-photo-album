@@ -1,8 +1,26 @@
-flask==2.0.1
-langchain==0.0.184
-openai==0.27.0
+# Core dependencies
+flask==2.3.3
+werkzeug==2.3.7
+langchain
+langchain-openai==0.2.2
+openai
 google-cloud-texttospeech==2.12.0
-pillow==9.3.0
-python-dotenv==0.19.2
+pillow==10.1.0
+python-dotenv==1.0.0
+streamlit
+# Development dependencies
 pytest==7.3.1
-flask-cors==3.0.10
+flask-cors==4.0.0
+boto3==1.35.44
+# Additional utilities
+requests==2.31.0
+click==8.1.7
+itsdangerous==2.1.2
+Jinja2==3.1.2
+MarkupSafe==2.1.3
+autogen-agentchat
+pyautogen
+bokeh
+streamlit-bokeh-events
+pyaudio
+SpeechRecognition
